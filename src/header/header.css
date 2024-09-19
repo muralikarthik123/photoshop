@@ -1,0 +1,244 @@
+@media(min-width:320px){
+    .header{
+        width:100%;
+        height:100px;
+        background-color: rgb(241, 160, 68);
+        margin-top: -20px;
+
+        .flexing{
+            display:flex;
+            gap:63%;
+            overflow-x: hidden;
+            .hamburg{
+                margin-top: 40px;
+                background-color: transparent;
+                border:none;
+            }
+            .logo{
+                width:50px;
+                height:50px;
+                border-radius:50%;
+                margin: 30px 10px;
+            }
+           
+            .mob{
+                margin-top: -55px;
+                left:0px;
+                width:100%;
+                position: fixed;
+                background-color: rgb(241, 160, 68);
+     
+                height:520px;
+                    li{
+                        
+                        
+                        padding-left: 45%;
+                        margin-top: 30px;
+                        height:50px; 
+                        margin-left: -10%;
+                        padding-top: 20px;
+                        list-style-type: none;
+                        
+                    }
+                    li:hover{
+                        background-color: antiquewhite;
+
+                    }
+                    .cancel{
+                        margin-top: 5%;
+                        margin-left: 70%;
+                        background-color: transparent;
+                        border:none;
+                    }
+            }
+            .lap{
+                display: none;
+            }
+        }
+        }
+}
+@media(min-width:500px){
+    .header{
+        width:100%;
+        height:100px;
+        background-color: rgb(241, 160, 68);
+        margin-top: -20px;
+
+        .flexing{
+            display:flex;
+            gap:65%;
+            .hamburg{
+                margin-top: 40px;
+                background-color: transparent;
+                border:none;
+            }
+            .logo{
+                width:50px;
+                height:50px;
+                border-radius:50%;
+                margin: 30px 10px;
+            }
+           
+            .mob{
+                margin-top: -75px;
+                left:0px;
+                width:100%;
+                position: fixed;
+                background-color: rgb(241, 160, 68);
+     
+                height:400px;
+                    li{
+                        padding-top: 20px;
+                        padding-left: 35%;
+                        margin-top: 30px;
+                        list-style-type: none;
+                        .cancel{
+                            margin-left: 55%;
+                            background-color: transparent;
+                            border:none;
+                        }
+                    }
+            }
+            .lap{
+                display: none;
+            }
+        }
+        }
+}
+@media(min-width:760px){
+    .header{
+        width:100%;
+        height:120px;
+        background-color: rgb(241, 160, 68);
+        margin-top: -20px;
+
+
+        .flexing{
+            display:flex;
+            gap:80%;
+            .hamburg{
+                margin-top: 40px;
+                background-color: transparent;
+                border:none;
+            }
+            .logo{
+                width:70px;
+                height:70px;
+                border-radius:50%;
+                margin: 30px 10px;
+            }
+           
+            .mob{
+                margin-top: -75px;
+                
+                width:100%;
+                position: fixed;
+                background-color: rgb(241, 160, 68);
+                height:400px;
+               
+                    li{
+                        padding-left: 40%;
+                        margin-top: 30px;
+                        list-style-type: none;
+                        width:60%;
+                        .cancel{
+                            margin-left: 75%;
+                            background-color: transparent;
+                            border:none;
+                        }
+                    }
+            }
+            .lap{
+                display: none;
+            }
+        }
+        }
+}
+
+@media(min-width:960px){
+    .header{
+        width:100%;
+        height:140px;
+        background-color: rgb(241, 160, 68);
+        margin-top: -20px;
+
+
+        .flexing{
+            display:flex;
+            gap:80%;
+            .hamburg{
+                margin-top: 50px;
+                background-color: transparent;
+                border:none;
+            }
+            .logo{
+                width:90px;
+                height:90px;
+                border-radius:50%;
+                margin: 30px 10px;
+            }
+           
+            .mob{
+                margin-top: -75px;
+                
+                width:100%;
+                position: fixed;
+                background-color: rgb(241, 160, 68);
+                height:400px;
+               
+                    li{
+                        padding-left: 45%;
+                        margin-top: 30px;
+                        list-style-type: none;
+                        width:60%;
+                        .cancel{
+                            margin-left: 65%;
+                            background-color: transparent;
+                            border:none;
+                        }
+                    }
+            }
+            .lap{
+                display: none;
+            }
+        }
+        }
+} 
+
+@media(min-width:1200px){
+    .header{
+        width:100%;
+        height:120px;
+        background-color: rgb(241, 160, 68);
+        margin-top: -20px;
+       
+
+        .flexing{
+            display:flex;
+            width:100%;
+            gap:55%;     
+            .logo{
+                width:80px;
+                height:80px;
+            }
+            .hamburg, .cancel{
+                display:none;
+            }
+            .mob{
+                display:none;
+            }
+            .lap{
+                display: flex;
+                gap:15%;
+                li{
+                    margin-top: 40px;
+                    list-style-type: none;
+                }
+                li:hover{
+                    text-decoration: underline;
+
+                }
+           }
+        }
+    }
+}

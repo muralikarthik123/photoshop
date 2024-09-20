@@ -4,6 +4,7 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Product from './products/products.jsx'
 import Home from './home/home.jsx'
 import Contact from './contact/contact.jsx'
+import About from './about/about.jsx'
 import Footer from './footer/footer.jsx'
 import Baby from './readmore/baby.jsx'
 import Prewed from './readmore/prewed.jsx'
@@ -19,6 +20,7 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/products' element={<Product/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/about' element={<About/>}/>
           <Route path='/baby' element={<Baby/>}/>
           <Route path='/prewed' element={<Prewed/>}/>
           <Route path='/wedding' element={<Wed/>}/>

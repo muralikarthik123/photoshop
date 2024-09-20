@@ -1,0 +1,132 @@
+@media(max-width:500px){
+    .contact{
+        width:100%;
+        h1{
+            text-align: center;
+        }
+        .c1{
+            .c1left{
+                width:90%;
+                margin-left: 5%;
+                .textbox{
+                  
+                    height: 25px;
+                    width:100%;
+                }
+                .textbox1{
+                    height:100px;
+                    width:100%;
+                }
+                .submit{
+                    margin-top: 20px;
+                    height: 35px;
+                    width:100px;
+                    border-radius: 5px;
+                    border:none;
+                    background-color: orange;
+                }
+            }
+    
+            .c1right{
+                margin-top: 30px;
+                width:90%;
+                margin-left: 5%;
+                .image{
+                    border-radius: 10px;
+                    width:100%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:500px){
+    .contact{
+        width:100%;
+        h1{
+            text-align: center;
+        }
+        .c1{
+            .c1left{
+                width:90%;
+                margin-left: 5%;
+                .textbox{
+                  
+                    height: 35px;
+                    width:100%;
+                }
+                .textbox1{
+                    height:250px;
+                    width:100%;
+                }
+                .submit{
+                    margin-top: 20px;
+                    height: 45px;
+                    width:100px;
+                    border-radius: 5px;
+                    border:none;
+                    background-color: orange;
+                }
+            }
+    
+            .c1right{
+                margin-top: 30px;
+                width:90%;
+                margin-left: 5%;
+                .image{
+                    border-radius: 10px;
+                    width:100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width:1200px){
+    .contact{
+        width:100%;
+        h1{
+            text-align: center;
+        }
+        .c1{
+            display: flex;
+            width:80%;
+            margin-left: 10%;
+   
+            .c1left{
+                width:50%;
+            
+                padding-left: 5%;
+               
+                .textbox{
+                    
+                    height: 25px;
+                    width:90%;
+                }
+                .textbox1{
+                   
+                    height:100px;
+                    width:90%;
+                }
+                .submit{
+                    
+                    margin-top: 20px;
+                    height: 35px;
+                    width:100px;
+                    background-color: orange;
+                    border-radius: 5px;
+                    border:none;
+                }
+            }
+    
+            .c1right{
+                width:40%;
+                .image{
+                    width:100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

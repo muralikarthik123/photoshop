@@ -15,6 +15,15 @@
                 font-weight: 400;
                 font-size: 25px;
                 }
+                .read{
+                    margin-left: 35%;
+                    width:100px;
+                    background-color: rgb(241, 160, 68);
+                    height:35px;
+                    border-radius: 5px;
+                    border:none;
+                    
+                }
             }
             .c1rightside{
                 .s1{
@@ -75,6 +84,15 @@
                 text-align: center;
                 h1{
                     padding-top: 50%;
+                }
+
+                .read{
+                    width:100px;
+                    background-color: rgb(241, 160, 68);
+                    height:35px;
+                    border-radius: 5px;
+                    border:none;
+                    
                 }
             }
             .c1rightside{

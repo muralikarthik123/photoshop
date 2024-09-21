@@ -40,10 +40,6 @@
                         list-style-type: none;
                         
                     }
-                    li:hover{
-                        background-color: antiquewhite;
-
-                    }
                     .cancel{
                         margin-top: 5%;
                         margin-left: 70%;

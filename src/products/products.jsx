@@ -5,22 +5,21 @@ import {Link} from 'react-router-dom'
 export default function products() {
   return (
     <div className='services'>
-      
-      <div>
-      <h1 className='heading'>Our Services</h1>
-      {/*birthday functions*/}
+       <h1 className='heading'>Our Services</h1>
+
+      {/*wedding functions*/}
       <div className='c1'>
         {/*left side content*/}
         <div className='c1leftside'>
-          <h1>Newly Born baby Photoshoot</h1>
+          <h1>Marriage Photo shoots</h1>
            {/*button linking to another page*/}
-          <Link to='/baby'><button className='read'>Read More</button></Link>
+          <Link to='/wedding'><button className='read'>Read More</button></Link>
         </div>
         {/*right side image*/}
         <div className='c1rightside'>
-          <img className='s1'src='./s1.jpg' alt=''/>
+          <img className='s1'src='./img2.webp' alt=''/>
         </div>
-      </div>
+      </div> 
 
       <br></br>
 
@@ -37,23 +36,27 @@ export default function products() {
           <img className='s1'src='./img3.jpg' alt=''/>
           
         </div>
-      </div>
+      </div> 
 
       <br></br>
-      
-      {/*wedding functions*/}
+      <div>
+      {/*birthday functions*/}
       <div className='c1'>
         {/*left side content*/}
         <div className='c1leftside'>
-          <h1>Marriage Photo shoots</h1>
+          <h1>Newly Born baby Photoshoot</h1>
            {/*button linking to another page*/}
-          <Link to='/wedding'><button className='read'>Read More</button></Link>
+          <Link to='/baby'><button className='read'>Read More</button></Link>
         </div>
         {/*right side image*/}
         <div className='c1rightside'>
-          <img className='s1'src='./img2.webp' alt=''/>
+          <img className='s1'src='./s1.jpg' alt=''/>
         </div>
       </div>
+
+      <br></br>
+
+      
     
       </div>
     </div>

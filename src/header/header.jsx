@@ -17,9 +17,8 @@ export default function Header() {
   return (
     <div className='header'>
       <div className='flexing'>
-
       <div>
-        <img className='logo' src='./logo.webp' alt=''/>
+        <img className='logo' src='./logo.jpeg' alt=''/>
       </div>
       <div>
       <button onClick={()=>open()} className='hamburg'><GiHamburgerMenu style={{fontSize:'35px'}}/></button>
@@ -29,7 +28,6 @@ export default function Header() {
         <li><Link onClick={()=>cancel()}  style={{color:'black',textDecoration:'none'}}  to ='/products'>Services</Link></li>
         <li><Link onClick={()=>cancel()} style={{color:'black',textDecoration:'none'}} to='/contact'>Contact</Link></li>
         <li><Link onClick={()=>cancel()}  style={{color:'black',textDecoration:'none'}}to='/about'>Aboutus</Link></li>
-
       </ul>
       </div>
       </div>

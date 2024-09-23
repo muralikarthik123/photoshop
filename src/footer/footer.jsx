@@ -11,14 +11,14 @@ export default function footer() {
        {/*address*/}
           <div className='c1'>
             <h2>Address</h2>
-            <p>Arundel Pet 3/4,guntur,</p>
+            <p>Arundel Pet 6/1,guntur,</p>
             <p>Andhra Pradesh,India.</p>
         </div>
         {/*phone number*/}
         <div className='c1'>
             <h2>Phone Number</h2>
-            <p>Mob:73864272924,</p>
-            <p>Email:muralikarthik845@gmail.com</p>
+            <p>Mob:998587734, 83746173144</p>
+            <p>Gmail:rkphotograph2019@gmail.com</p>
         </div>
 
         {/*Social media*/}

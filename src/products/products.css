@@ -18,7 +18,7 @@
                 .read{
                     margin-left: 35%;
                     width:100px;
-                    background-color: rgb(241, 160, 68);
+                    background-color: blanchedalmond;
                     height:35px;
                     border-radius: 5px;
                     border:none;
@@ -54,6 +54,14 @@
                     padding-top: 50%;
                     font-size: 30px;
                 }
+                .read{
+                    width:100px;
+                    background-color: blanchedalmond;
+                    height:35px;
+                    border-radius: 5px;
+                    border:none;
+                    
+                }
             }
             .c1rightside{
                 width:50%;
@@ -87,7 +95,7 @@
 
                 .read{
                     width:100px;
-                    background-color: rgb(241, 160, 68);
+                    background-color: blanchedalmond;
                     height:35px;
                     border-radius: 5px;
                     border:none;

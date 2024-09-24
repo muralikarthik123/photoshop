@@ -14,7 +14,7 @@
                 padding-left: 55%;
                 font-size: 20px;
                 padding-top: 100px;
-                color:rgb(236, 236, 150);
+                color: blanchedalmond;
                 font-weight: 600;
             } 
         }
@@ -60,7 +60,7 @@
                 padding-left: 55%;
                 font-size: 20px;
                 padding-top: 140px;
-                color:rgb(236, 236, 150);
+                color: blanchedalmond;
                 font-weight: 600;
             }
             
@@ -84,7 +84,7 @@
                 padding-left: 55%;
                 font-size: 40px;
                 padding-top: 200px;
-                color:rgb(236, 236, 150);
+                color: blanchedalmond;
                 font-weight: 600;
             }
             
@@ -107,7 +107,7 @@
                 padding-left: 55%;
                 font-size: 40px;
                 padding-top: 320px;
-                color:rgb(236, 236, 150);
+                color: blanchedalmond;
                 font-weight: 600;
             }
             
@@ -122,17 +122,17 @@
     
         .background{
             width:100%;
-                    background-image: url('../images/img1.jpeg');
+            background-image: url('../images/img1.jpeg');
             background-repeat: no-repeat;
             background-size: 100%;
             background-attachment: fixed;
             height: 700px;
-            margin-top: -34px;
+            margin-top: -40px;
             .heading{
-                padding-left: 55%;
+                padding-left: 65%;
                 font-size: 50px;
-                padding-top: 300px;
-                color:rgb(236, 236, 150);
+                padding-top: 400px;
+                color: blanchedalmond;
                 font-weight: 600;
             } 
         }

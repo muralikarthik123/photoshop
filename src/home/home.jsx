@@ -7,7 +7,7 @@ export default function home() {
       {/* container 1background image*/}
       <div className='background' >
         {/* heading*/}
-        <h1 className='heading'>R.k. Pro Photograph</h1>
+        <h1 className='heading'>RK Pro Photograph</h1>
       </div>
       {/*service*/}
       <h1 className='head'>Our services</h1>

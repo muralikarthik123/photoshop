@@ -11,7 +11,7 @@ export default function products() {
       <div className='c1'>
         {/*left side content*/}
         <div className='c1leftside'>
-          <h1>Marriage Photo shoots</h1>
+          <h1>Weding Photo shoots</h1>
            {/*button linking to another page*/}
           <Link to='/wedding'><button className='read'>Read More</button></Link>
         </div>

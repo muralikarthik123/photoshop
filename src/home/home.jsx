@@ -6,17 +6,27 @@ export default function home() {
     <div className='home'>
       {/* container 1background image*/}
       <div className='background' >
-        {/* heading*/}
-        <h1 className='heading'>RK Pro Photograph</h1>
+        
       </div>
       {/*service*/}
-      <h1 className='head'>Our services</h1>
+      {/* heading*/}
+      <h1 className='heading'>RK Pro Photograpy</h1>
+      <h1 className='head'>Our Weding Packages</h1>
 
       {/*container 2*/}
       <div className='c2'>
         {/*left content*/}
         <div className='c2left'>
-          <h1 className='heading'>Wedding</h1>
+          <h1 className='heading'>Wedding Events</h1>
+          <ol >
+            <li>Engagement</li>
+            <li>Bride/Groom Haldi</li>
+            <li>MagalaShanalu</li>
+            <li>Sangeeth</li>
+            <li>Wedding</li>
+            <li>Receptions</li>
+            
+          </ol>
         </div>
         {/*right Side image*/}
         <div className='c2right'>
@@ -34,6 +44,15 @@ export default function home() {
          {/*right Side image*/}
         <div className='c2left'>
           <h1 className='heading'>Pre Wedding Shoot</h1>
+          <ol >
+            <li>Cinematic Video Graph</li>
+            <li>Drown Shoot</li>
+            <li>Candid Photography</li>
+            <li>Sangeeth</li>
+            <li>Wedding</li>
+            <li>Receptions</li>
+            
+          </ol>
         </div>
       </div>
 

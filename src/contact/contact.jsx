@@ -21,12 +21,13 @@ export default function Contact() {
   const onsubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm('service_6i757ip', 'template_61j0gpg', e.target, {
-        publicKey: '9oLRZGqYbI-iCb1mM',
+      .sendForm('service_g8l1gxk', 'template_a0gf82e', e.target, {
+        publicKey: 'FD3AoD84F_Fu5HzFp',
       })
       .then(
         () => {
           console.log('SUCCESS!');
+          alert('Apponitment has been booked successfully')
           
         },
         (error) => {

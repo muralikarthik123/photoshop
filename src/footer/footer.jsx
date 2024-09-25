@@ -10,15 +10,17 @@ export default function footer() {
       <div className='total'>
        {/*address*/}
           <div className='c1'>
-            <h2>Address</h2>
+            <h4>Address H/o</h4>
             <p>Arundel Pet 6/1,guntur,</p>
             <p>Andhra Pradesh,India.</p>
+            <h4>Branch</h4>
+            <p>Hyderabad,Vijayawada.</p>
         </div>
         {/*phone number*/}
         <div className='c1'>
             <h2>Phone Number</h2>
-            <p>Mob:998587734, 83746173144</p>
-            <p>Gmail:rkphotograph2019@gmail.com</p>
+            <p>Mob:998587734, 8374617344.</p>
+            <p>Gmail:rkphotography2019@gmail.com.</p>
         </div>
 
         {/*Social media*/}
@@ -27,7 +29,7 @@ export default function footer() {
             <div className='allicons'>
               {/*youtube*/}
               <div>
-                <a href='https://www.youtube.com/'>< FaYoutube  className='utube'/></a>
+                <a href='https://www.youtube.com/@rksivaphotography5050'>< FaYoutube  className='utube'/></a>
               </div>
               {/*facebook*/}
               <div>

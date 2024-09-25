@@ -1,23 +1,22 @@
 @media(min-width:320px){
     .home{
         width:100%;
-        margin-top: -22px;
         .background{
             width:100%;
             background-image: url('../images/img1.jpeg');
             background-size: 100% 300px;
-            height: 300px;
+            height: 250px;
             background-repeat: no-repeat;
             background-attachment: fixed;
          
-            .heading{
-                padding-left: 55%;
-                font-size: 20px;
-                padding-top: 100px;
-                color: blanchedalmond;
-                font-weight: 600;
-            } 
         }
+
+        .heading{
+            text-align: center;
+            font-size: 35px;
+            text-decoration: underline;
+        }
+
         .head{
             text-align: center;
         }
@@ -30,7 +29,7 @@
                 width:50%;
                 .heading{
                     text-align: center;
-                    padding-top: 50%;
+
                     font-size: 20px;
                 }
             }
@@ -40,6 +39,11 @@
                     width:100%;
                     border-radius: 10px;
                 }
+            }
+            li{
+                font-size: 15px;             
+                padding-top: 10px;
+                
             }
         }
 
@@ -80,16 +84,37 @@
             background-size: 100% 550px;
             height: 450px;
          
-            .heading{
-                padding-left: 55%;
-                font-size: 40px;
-                padding-top: 200px;
-                color: blanchedalmond;
-                font-weight: 600;
-            }
             
             
         }
+
+        .c2{
+            display: flex;
+        
+            width:90%;
+            margin-left: 5%;
+            .c2left{
+                width:50%;
+                .heading{
+                    text-align: center;
+                    font-size: 30px;
+                }
+            }
+            .c2right{
+                width:50%;
+                .image2{
+                    width:100%;
+                    border-radius: 10px;
+                }
+            }
+            li{
+                font-size: 25px;             
+                padding-top: 15px;
+                padding-left: 5%;
+                
+            }
+        }
+
     }
 
 }
@@ -119,7 +144,7 @@
 @media(min-width:1200px){
     .home{
         width:100%;
-    
+        margin-top: 20px;
         .background{
             width:100%;
             background-image: url('../images/img1.jpeg');
@@ -127,7 +152,7 @@
             background-size: 100%;
             background-attachment: fixed;
             height: 700px;
-            margin-top: -40px;
+            
             .heading{
                 padding-left: 65%;
                 font-size: 50px;
@@ -136,10 +161,16 @@
                 font-weight: 600;
             } 
         }
+        .heading{
+            text-align: center;
+            font-size: 50px;
+            text-decoration: underline;
+        }
         .head{
             text-align: center;
             font-size: 40px;
         }
+
 
         /*conatiner 2*/
         .c2{
@@ -151,9 +182,14 @@
                 width:50%;
                 .heading{
                     text-align: center;
-                    padding-top: 50%;
+                    padding-top: 10%;
                     font-size: 40px;
                 }
+            }
+            li{
+                font-size: 30px;             
+                padding-top: 20px;
+                margin-left: 5%;
             }
             .c2right{
                 width:50%;
